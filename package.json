@@ -1,0 +1,28 @@
+{
+  "name": "@grayoj/ts-chrome-extension",
+  "version": "1.0.0",
+  "description": "A boilerplate for developing chromium or chrome browser based extension applications in typescript.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack/webpack.config.js"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.4",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grayoj"
+  },
+  "keywords": [
+    "Typescript",
+    "Chrome",
+    "extension",
+    "boilerplate"
+  ],
+  "author": "Gerald Maduabuchi",
+  "license": "MIT"
+}
